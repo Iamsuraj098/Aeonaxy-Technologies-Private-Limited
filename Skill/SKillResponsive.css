@@ -4,16 +4,16 @@
     }
 
     .top p:nth-child(1) {
-        font-size: 6vw;
+        font-size: 7vw;
     }
 
     .top button {
-        font-size: 5vw;
+        font-size: 6vw;
         margin: 2%;
         width: 10vw;
     }
 
-    .down {
+    .down { 
         margin-top: 5%;
     }
 
@@ -42,13 +42,14 @@
     .finsh{
         width: 80vw;
         align-items: center;
+        padding: 3%;
     }
 
     .finsh button{
         margin: 3% 0% 0% 0%;
         width: 40vw;
         height: 6vh;
-        font-size: 3vw;
+        font-size: 5vw;
     }
 
     #press_return{
@@ -65,5 +66,16 @@
     .same-template {
         width: 75vw;
         height: 40vh;
+    }
+}
+
+@media screen and (max-width: 200px){
+    .top button {
+        border-radius: 5px;
+    }
+
+    .same-template {
+        width: 75vw;
+        height: 25vh;
     }
 }
