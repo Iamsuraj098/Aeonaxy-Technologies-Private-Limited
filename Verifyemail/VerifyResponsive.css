@@ -204,7 +204,7 @@
     }
 
     .right-icon{
-        width: 50vw;
+        width: 60vw;
     }
 
     .right-icon-search{
@@ -328,17 +328,8 @@
     }
 }
 
-@media screen and (max-width: 325px) {
-    
-    .right-icon-profile{
-        width: 13vw;
-        height: 5vh; 
-    }
+@media screen and (max-width: 360px) {
 
-    .right-icon-profile img{
-        width: 8vw;
-        height: 4vh;
-    }
 }
 
 @media screen and (max-width: 325px) {
