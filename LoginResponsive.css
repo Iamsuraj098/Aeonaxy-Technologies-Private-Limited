@@ -5,6 +5,7 @@
 
     .left-side{
         width: 100vw;
+        /* height: 90vh; */
     }
 
     .left-side-intro{
@@ -13,7 +14,8 @@
     }
 
     .intro p:nth-child(1){
-        font-size: 5vw;
+        margin: 0% 0% 0% 0%;
+        font-size: 8vw;
     }
 
     .intro p:nth-child(2){
@@ -43,7 +45,7 @@
     .SignIn{
         text-align: right;
         /* border: 2px solid black; */
-        font-size: 3vw;
+        font-size: 4vw;
         width: 80vw;
         margin: 5% 2% 2% 2%;
     }
@@ -58,7 +60,7 @@
     }
 
     .head-pop p:nth-child(1) {
-        font-size: 5vw;
+        font-size: 7vw;
     }
 
     #sign-up-form-inner{
@@ -74,11 +76,12 @@
     }
 
     .user-name-name p{
-        font-size: 3vw;
+        font-size: 5vw;
+        font-weight: 600;
     }
 
     .user-name-name input{
-        font-size: 3vw;
+        font-size: 5vw;
         width: 30vw;
     }
 
@@ -88,13 +91,13 @@
     }
 
     .take-detail p{
-        font-size: 3vw;
+        font-size: 5vw;
         /* border: 2px solid black; */
         /* width: 70vw; */
     }
 
     .take-detail input{
-        font-size: 3vw;
+        font-size: 5vw;
         /* border: 2px solid black; */
         width: 77vw;
     }
@@ -109,19 +112,20 @@
     }
 
     .legal{
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     .submit {
-        font-size: 3.2vw;
-        width: 40vw;
+        font-size: 5vw;
+        width: 45vw;
     }
 
     .security{
-        font-size: 2vw;
+        text-align: center;
+        font-size: 4vw;
     }
 
     #message{
-        font-size: 3vw;
+        font-size: 4vw;
     }
 }
