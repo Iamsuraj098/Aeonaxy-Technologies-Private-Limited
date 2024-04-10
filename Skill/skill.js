@@ -11,7 +11,6 @@ function Next_page(){
 }
 
 function submitForm(rad1, rad2, rad3){
-    console.log(rad1.checked, rad2, rad3)
     // upadate database for skill selection
     window.location.href = "../Verifyemail/VerifyEmail.html";
 }
