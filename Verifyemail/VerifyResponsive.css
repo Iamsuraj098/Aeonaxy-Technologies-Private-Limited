@@ -328,8 +328,11 @@
     }
 }
 
-@media screen and (max-width: 360px) {
-
+@media screen and (max-width: 365px) {
+    .right-icon-store img{
+        width: 7vw;
+        height: 7vw;
+    }
 }
 
 @media screen and (max-width: 325px) {
