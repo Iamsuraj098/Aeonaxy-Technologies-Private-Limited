@@ -46,5 +46,5 @@ function showMessage(message) {
 
 function submitForm(name, email, username, password){
     // add database 
-    window.location.href = "createprofile/index.html";
+    window.location.href = "createprofile/CreateProfile.html";
 }
