@@ -236,3 +236,17 @@
         height: 15vh;
     }
 }
+
+@media screen and (max-width: 230px) {
+    .photo{
+        width: 32vw;
+        height: 15vh;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    .photo{
+        width: 32vw;
+        height: 12vh;
+    }
+}
