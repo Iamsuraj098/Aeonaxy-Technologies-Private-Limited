@@ -110,6 +110,13 @@
     }
 }
 
+@media screen and (max-width: 365px) {
+    .photo{
+        width: 30vw;
+        height: 15vh;
+    }
+}
+
 @media screen and (max-width: 325px) {
 
     .whole {
