@@ -12,7 +12,7 @@ function Next_page(){
 
 function submitForm(rad1, rad2, rad3){
     // upadate database for skill selection
-    window.location.href = "../Verifyemail/VerifyEmail.html";
+    window.location.href = "../Verifyemail/index.html";
 }
 
 flag = 0;
