@@ -20,7 +20,7 @@ function press_return(){
     if(flag == 0){
         flag = 1;
         let a = document.createElement('a');
-        a.href = "";
+        a.href = "../createprofile/CreateProfile.html";
         a.innerText = "or Press RETURN";
         a.setAttribute("id", "press_return");
         document.querySelector("#finsh").append(a);
