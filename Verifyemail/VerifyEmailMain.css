@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+
+main{
+    margin: 6% 0% 0% 0%;
+    /* border: 2px solid black; */
+}
+
+.all-main-contain{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.all-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+}
+
+.all-main-contain p{
+    margin: 1%;
+}
+
+.all-text p:nth-child(1){
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    color: rgb(24, 24, 24);
+    font-size: 2.2vw;
+}
+
+.all-text-email-icon {
+    /* width: 1vw; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10vw;
+    height: 20vh;
+    /* border: 2px solid black; */
+}
+
+.all-text p:nth-child(3){
+    margin-top: 3%;
+    font-family: "Roboto", sans-serif;
+    color: rgb(96, 96, 96);
+    font-size: 1vw;
+}
+
+.all-text p:nth-child(4){
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    color: rgb(20, 20, 20);
+    font-size: 1.2vw;
+}
+
+.all-text p:nth-child(5){
+    font-family: "Roboto", sans-serif;
+    color: rgb(96, 96, 96);
+    font-size: 1vw;
+}
+
+.resend-confirmation{
+    margin: 1%;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: rgb(96, 96, 96);
+    font-size: 1vw;
+
+    width: 38vw;
+}
+
+.resend-confirmation a{
+    color: rgb(192, 70, 90);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.resend-confirmation a:hover{
+    text-decoration: underline;
+}
+
+.wrong-email{
+    /* margin: 1%; */
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: rgb(96, 96, 96);
+    font-size: 1vw;
+
+    width: 40vw;
+}
+
+.wrong-email a{
+    color: rgb(192, 70, 90);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.wrong-email a:hover{
+    text-decoration: underline;
+}

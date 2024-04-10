@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill</title>
+    <link rel="stylesheet" href="Skill.css">
+    <link rel="stylesheet" href="SKillResponsive.css">
+    <script src="skill.js"></script>
+</head>
+<body>
+    <div class="whole">
+        <div class="top">
+            <p>Dribbble</p>
+            <button><</button>
+        </div>
+        <div class="down">
+            <div class="intro">
+                <p>What brings you to Dribbble?</p>
+                <p>Select the option that best describe you. Don't worry, you can explore other option later.</p>
+            </div>
+            <div class="rectangle-box">
+                <div class="looking-designer same-template">
+                    <img src="Designer.jpeg" alt="">
+                    <p>I'm a desiger looking to share my work</p>
+                    <input type="radio" id="rad1" onclick="press_return()">
+                </div>
+                <div class="sharing-design same-template">
+                    <img src="Designer (1).jpeg" alt="">
+                    <p>I'm looking to hire a desiger</p>
+                    <input type="radio" id="rad2" onclick="press_return()">
+                </div>
+                <div class="design-inspiration same-template">
+                    <img src="Designer (2).jpeg" alt="">
+                    <p>I'm looking for design inspiration</p>
+                    <input type="radio" id="rad3" onclick="press_return()">
+                </div>
+            </div>
+            <div class="finsh" id="finsh">
+                <button type="button" onclick="Next_page()">Finsh</button>
+                <!-- <a href="#" id="press_return">or Press RETURN</a> -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>

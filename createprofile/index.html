@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/7ec38867b1.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CreateProfile.css">
+    <link rel="stylesheet" href="CreateProfileResponsive.css">
+    <script src="CreateProfile.js"></script>
+    <title>Create Your Profile</title>
+</head>
+<body>
+    <div class="whole">
+        <div class="left">
+            <p>Dribbble</p>
+        </div>
+        <div class="right">
+            <div class="top-text">
+                <p>Welcome! Let's create your profile</p>
+                <p>Let others get to know you better! You can do these later</p>
+            </div>
+            <div class="image-discription">
+                <p>Add an avatar</p>
+                <div class="image">
+                    <div class="photo" id="uploadedPhoto">
+                        <i class="fa-solid fa-camera" id="photo-i"></i>
+                    </div>
+                    <div class="choose">
+                        <div class="choose-line">
+                            <input type="file" accept="image/*" name="photo" id="fileInput" required class="choose-input" required >
+                            <label for="fileInput" id="change-text">Choose Image</label>
+                            <button onclick="uploadPhoto()">upload</button>
+                        </div>
+                        <p>Default Images</p>
+                    </div>
+                </div>
+            </div>
+            <div class="location">
+                <p>Add your location</p>
+                <input type="text" id="address" name="address" placeholder="Enter a location" required>
+            </div>
+            <div class="all_button">
+                <div class="submit">
+                    <button class="procced" id="next_step" onclick="proceed()">Next</button>
+                </div>
+                <a href="http://127.0.0.1:5500/Login/Index.html" id="go-back">or Press RETURN</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

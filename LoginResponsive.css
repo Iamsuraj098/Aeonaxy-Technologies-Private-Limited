@@ -1,0 +1,127 @@
+@media screen and (max-width: 430px){
+    body{
+        flex-direction: column;
+    }
+
+    .left-side{
+        width: 100vw;
+    }
+
+    .left-side-intro{
+        width: 95vw;
+        /* align-items: center; */
+    }
+
+    .intro p:nth-child(1){
+        font-size: 5vw;
+    }
+
+    .intro p:nth-child(2){
+        font-size: 5vw;
+    }
+
+    .left-side-intro img{
+        width: 90vw;
+        height: 100vw;
+    }
+
+    .art{
+        font-size: 3vw;
+    }
+
+    #sign-up-form-right{
+        width: 100vw;
+    }
+
+    .SignIn{
+        text-align: right;
+        /* border: 2px solid black; */
+        font-size: 3vw;
+        width: 80vw;
+    }
+
+    .SignIn{
+        text-align: right;
+        /* border: 2px solid black; */
+        font-size: 3vw;
+        width: 80vw;
+        margin: 5% 2% 2% 2%;
+    }
+
+    .sign-up-form{
+        margin-top: 5%;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .head-pop p:nth-child(1) {
+        font-size: 5vw;
+    }
+
+    #sign-up-form-inner{
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        /* border: 2px solid black; */
+    }
+
+    .user-name{
+        /* border: 2px solid black; */
+        width: 80vw;
+    }
+
+    .user-name-name p{
+        font-size: 3vw;
+    }
+
+    .user-name-name input{
+        font-size: 3vw;
+        width: 30vw;
+    }
+
+    .take-detail{
+        /* border: 2px solid black; */
+        width: 80vw;
+    }
+
+    .take-detail p{
+        font-size: 3vw;
+        /* border: 2px solid black; */
+        /* width: 70vw; */
+    }
+
+    .take-detail input{
+        font-size: 3vw;
+        /* border: 2px solid black; */
+        width: 77vw;
+    }
+
+    .agrement{
+        margin: 5% 0% 5% 0%;
+    }
+
+    .agrement input {
+        width: 50%;
+        height: 40%;
+    }
+
+    .legal{
+        font-size: 3vw;
+    }
+
+    .submit {
+        font-size: 3.2vw;
+        width: 40vw;
+    }
+
+    .security{
+        font-size: 2vw;
+    }
+
+    #message{
+        font-size: 3vw;
+    }
+}

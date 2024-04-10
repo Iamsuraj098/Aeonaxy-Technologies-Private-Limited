@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+
+.parent-box{
+    margin: 11% 0% 0% 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-top: 2px rgb(222, 222, 222);
+}
+
+.box1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+}
+
+.box2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+        /* border: 2px solid black; */
+}
+
+.box{
+    /* border: 2px solid black; */
+    width: 15vw;
+} 
+
+#footer-heading{
+    font-family: "Damion", cursive;
+    font-weight: 800;
+    color: rgba(193, 76, 76, 1);
+    font-size: 2vw;
+}
+
+.box p:nth-child(1){
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    color: rgb(24, 24, 24);
+    font-size: 1vw;
+}
+
+.box p:nth-child(2){
+    text-wrap: 20%;
+    font-family: "Roboto", sans-serif;
+    color: rgb(24, 24, 24);
+    font-size: 1vw;
+}
+
+.box ul{
+    list-style: none;
+}
+
+.box ul li{
+    margin: 5% 0% 0% 0%;
+    font-family: "Roboto", sans-serif;
+    color: rgb(24, 24, 24);
+    font-size: 1vw;
+    list-style: none;
+}
+
+.box ul li a{
+    color: rgb(90, 90, 90);
+    border: none;
+    text-decoration: none;
+}
+
+.box ul li a:hover{
+    text-decoration: underline;
+}
+
+.parent-box2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2%;
+}
+
+#brands{
+    font-weight: 700;
+    color: black;
+}
+
+#Design-assets{
+    font-weight: 700;
+    color: black;
+}
+
+#logo{
+    display: flex;
+    flex-direction: row;
+}
+
+#logo li{
+    margin: 2% 0% 0% 2%;
+}
+
+#logo li a:hover{
+    color: blue;
+}
+
+.parent-box2 p{
+    font-family: "Roboto", sans-serif;
+    color: rgb(24, 24, 24);
+    font-size: 1vw;
+}
+
