@@ -58,6 +58,17 @@
     }
 }
 
+@media screen and (max-width: 420px){
+    .top button {
+        border-radius: 5px;
+    }
+
+    .same-template {
+        width: 75vw;
+        height: 35vh;
+    }
+}
+
 @media screen and (max-width: 325px){
     .top button {
         border-radius: 5px;
@@ -84,14 +95,14 @@
     }
 }
 
-@media screen and (max-width: 145px){
+@media screen and (max-width: 170px){
     .top button {
         border-radius: 5px;
     }
 
     .same-template {
         width: 75vw;
-        height: 15vh;
+        height: 25vh;
     }
 
     .finsh button{
