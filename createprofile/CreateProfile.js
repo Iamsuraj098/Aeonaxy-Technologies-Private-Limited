@@ -39,7 +39,7 @@ function proceed(){
     const img = document.querySelector("#person-img");
     if(address != ""){
         if(image_flag == 1)
-            window.location.href = "http://127.0.0.1:5500/Skill/Skill.html";
+            window.location.href = "../Skill/Skill.html";
         else{
             document.querySelector("#fileInput").style.border = "2px solid red";
         }
