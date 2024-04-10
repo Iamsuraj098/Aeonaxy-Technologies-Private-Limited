@@ -36,7 +36,7 @@
     }
 
     .same-template p{
-        font-size: 3vw;
+        font-size: 5vw;
     }
 
     .finsh{
@@ -76,6 +76,10 @@
 
     .same-template {
         width: 75vw;
-        height: 25vh;
+        height: 30vh;
+    }
+
+    .finsh button{
+        width: 45vw;
     }
 }
