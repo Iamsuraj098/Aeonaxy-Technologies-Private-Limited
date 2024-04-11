@@ -55,6 +55,11 @@
         height: 20vh;
     }
 
+    .photo i{
+        font-size: 6vw;
+        color: rgb(127, 127, 127);
+    }
+
     .whole-image{
         /* border: 2px solid black; */
         width: 95vw;

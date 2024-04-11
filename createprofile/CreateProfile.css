@@ -80,11 +80,8 @@
 }
 
 .photo i{
-    font-size: 1.4vw;
+    font-size: 2vw;
     color: rgb(127, 127, 127);
-    position: relative;
-    top: 44%;
-    left: 44%;
 }
 
 .photo img{
