@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <script src="https://kit.fontawesome.com/7ec38867b1.js" crossorigin="anonymous"></script>
@@ -9,6 +10,7 @@
     <script src="CreateProfile.js"></script>
     <title>Create Your Profile</title>
 </head>
+
 <body>
     <div class="whole">
         <div class="left">
@@ -19,22 +21,43 @@
                 <p>Welcome! Let's create your profile</p>
                 <p>Let others get to know you better! You can do these later</p>
             </div>
-            <div class="image-discription">
-                <p>Add an avatar</p>
-                <div class="image">
-                    <div class="photo" id="uploadedPhoto">
-                        <i class="fa-solid fa-camera" id="photo-i"></i>
-                    </div>
-                    <div class="choose">
-                        <div class="choose-line">
-                            <input type="file" accept="image/*" name="photo" id="fileInput" required class="choose-input" required >
-                            <label for="fileInput" id="change-text">Choose Image</label>
-                            <button onclick="uploadPhoto()">upload</button>
+            <div class="whole-image">
+                <div class="image-discription">
+                    <p>Add an avatar</p>
+                    <div class="image">
+                        <div class="photo" id="uploadedPhoto">
+                            <i class="fa-solid fa-camera" id="photo-i"></i>
                         </div>
-                        <p>Default Images</p>
+                        <div class="choose">
+                            <div class="choose-line">
+                                <label for="fileInput" id="change-text">Choose Image</label>
+                                <button onclick="uploadPhoto()">Upload</button>
+                                <input type="file" accept="image/*" name="photo" id="fileInput" required
+                                    class="choose-input" required>
+                            </div>
+                            <p onclick="choose_default_img()" id="default_text_change">Default Images</p>
+                        </div>
                     </div>
                 </div>
+                <table id="default-table-img">
+                    <tr>
+                        <td onclick="defaultPhoto(0)"><img src="../image2.jpg" alt="img"></td>
+                        <td onclick="defaultPhoto(1)"><img src="../image2.jpg" alt="img"></td>
+                        <td onclick="defaultPhoto(2)"><img src="../image2.jpg" alt="img"></td>
+                    </tr>
+                    <tr>
+                        <td onclick="defaultPhoto(3)"><img src="../image2.jpg" a  lt="img"></td>
+                        <td onclick="defaultPhoto(4)"><img src="../image2.jpg" alt="img"></td>
+                        <td onclick="defaultPhoto(5)"><img src="../image2.jpg" alt="img"></td>
+                    </tr>
+                    <tr>
+                        <td onclick="defaultPhoto(6)"><img src="../image2.jpg" alt="img"></td>
+                        <td onclick="defaultPhoto(7)"><img src="../image2.jpg" alt="img"></td>
+                        <td onclick="defaultPhoto(8)"><img src="../image2.jpg" alt="img"></td>
+                    </tr>
+                </table>
             </div>
+
             <div class="location">
                 <p>Add your location</p>
                 <input type="text" id="address" name="address" placeholder="Enter a location" required>
@@ -44,8 +67,10 @@
                     <button class="procced" id="next_step" onclick="proceed()">Next</button>
                 </div>
                 <a href="../index.html" id="go-back">or Press RETURN</a>
-            </div> 
+            </div>
         </div>
     </div>
+    </div>
 </body>
+
 </html>

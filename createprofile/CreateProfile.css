@@ -99,6 +99,13 @@
     text-align: center;
 }
 
+.whole-image{
+    display: flex;
+    justify-content: space-around;
+    height: 30vh;
+    width: 40vw;
+}
+
 .choose{
     width: 50%;
     display: flex;
@@ -113,20 +120,20 @@
 }
 
 .choose-line{
-    width: 10vw;
+    width: 15vw;
     display: flex;
     flex-direction: row;
 }
 
 .choose-input{
-    width: 100vw;
+    width: 1vw;
     display: none;
 }
 
 .choose-line label {
     display: block;
     margin: 3%;
-    width: 40%;
+    width: 10vw;
     padding: 5px;
     text-align: center;
     border: 2px solid rgb(213, 213, 213);
@@ -141,7 +148,6 @@
     font-size: 1vw;
     display: block;
     margin: 3%;
-    width: 40%;
     padding: 5px;
     text-align: center;
     border: 2px solid rgb(213, 213, 213);
@@ -155,7 +161,7 @@
     font-size: 1vw;
     font-weight: 600;
     display: block;
-    width: 38%;
+    width: 85%;
     border: none;
     padding: 5px;
     background-color: transparent;
@@ -164,6 +170,29 @@
     border-radius: 5px;
     margin: 2%;
     cursor: pointer;
+}
+
+.whole-image table{
+    opacity: 0;
+    z-index: -10;
+    background-color: rgb(237, 237, 237);
+    text-align: center;
+    margin-left: 5%;
+    width: 15vw;
+    height: 25vh;
+}
+
+.whole-image table tr td{
+    cursor: pointer;
+    width: 30vw;
+    height: 9vh;
+}
+
+.whole-image table tr td img{
+    width: 3.5vw;
+    height: 7vh;
+    border-radius: 50%;
+    border: 3px solid rgb(255, 255, 255);
 }
 
 .location{

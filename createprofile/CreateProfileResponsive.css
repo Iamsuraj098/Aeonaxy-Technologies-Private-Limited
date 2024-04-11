@@ -5,7 +5,6 @@
     }
 
     .left {
-        /* border: 2px solid black; */
         width: 100vw;
     }
     
@@ -34,21 +33,19 @@
     }
 
     .image-discription{
-        align-items: center;
         justify-content: flex-start;
-        /* border: 2px solid black; */
-        width: 85vw;
+        width: 65vw;
     }
 
     .image-discription p:nth-child(1){
         /* border: 2px solid gray; */
-        width: 85vw;
+        width: 65vw;
         font-size: 5vw;
     }
 
     .image{
         margin: 0;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         width: 100vw;
     }
@@ -56,6 +53,12 @@
     .photo{
         width: 25vw;
         height: 20vh;
+    }
+
+    .whole-image{
+        /* border: 2px solid black; */
+        width: 95vw;
+        justify-content: space-evenly;
     }
 
     .choose-line label{
@@ -77,6 +80,30 @@
     .choose p{
         font-size: 4vw;
         width: 30vw;
+    }
+
+
+    .whole-image table{
+        opacity: 0;
+        z-index: -10;
+        background-color: rgb(237, 237, 237);
+        text-align: center;
+        margin-top: 4%;
+        width: 40vw;
+        height: 25vh;
+    }
+    
+    .whole-image table tr td{
+        cursor: pointer;
+        width: 6vw;
+        height: 6vh;
+    }
+    
+    .whole-image table tr td img{
+        width: 6vw;
+        height: 6vh;
+        border-radius: 50%;
+        border: 3px solid rgb(255, 255, 255);
     }
 
     .location{
@@ -107,6 +134,62 @@
     .photo{
         width: 32vw;
         height: 15vh;
+    }
+
+    .whole-image{
+        flex-direction: column;
+        width: 95vw;
+        height: 15vh;
+        justify-content: space-evenly;
+    }
+
+    .choose-line{
+        width: 60vw;
+        justify-content: flex-start;
+    }
+
+    .choose-line label{
+        width: 30vw;
+        font-size: 4vw;
+        /* width: 25vw; */
+    }
+
+    .choose-line button{
+        /* width: vw; */
+        font-size: 4vw;
+        /* width: 25vw; */
+    }
+
+    .choose-line button{
+        font-size: 4vw;
+    }
+
+    .choose p{
+        font-size: 4vw;
+        width: 30vw;
+    }
+
+    .whole-image table{
+        opacity: 0;
+        z-index: -10;
+        background-color: rgb(237, 237, 237);
+        text-align: center;
+        margin: 0% 0% 0% 40%;
+        width: 40vw;
+        height: 25vh;
+    }
+    
+    .whole-image table tr td{
+        cursor: pointer;
+        width: 6vw;
+        height: 6vh;
+    }
+    
+    .whole-image table tr td img{
+        width: 6vw;
+        height: 5vh;
+        border-radius: 50%;
+        border: 3px solid rgb(255, 255, 255);
     }
 }
 
@@ -185,16 +268,28 @@
         height: 18vh;
     }
 
+    .whole-image{
+        /* border: 2px solid black; */
+        flex-direction: column;
+        width: 95vw;
+        justify-content: space-evenly;
+    }
+
+    .choose-line{
+        width: 60vw;
+        justify-content: flex-start;
+    }
+
     .choose-line label{
         width: 30vw;
         font-size: 4vw;
-        width: 25vw;
+        /* width: 25vw; */
     }
 
     .choose-line button{
-        width: 30vw;
+        /* width: vw; */
         font-size: 4vw;
-        width: 25vw;
+        /* width: 25vw; */
     }
 
     .choose-line button{
@@ -205,6 +300,30 @@
         font-size: 4vw;
         width: 30vw;
     }
+
+    .whole-image table{
+        opacity: 0;
+        z-index: -10;
+        background-color: rgb(237, 237, 237);
+        text-align: center;
+        margin: 0% 0% 0% 40%;
+        width: 40vw;
+        height: 25vh;
+    }
+    
+    .whole-image table tr td{
+        cursor: pointer;
+        width: 6vw;
+        height: 6vh;
+    }
+    
+    .whole-image table tr td img{
+        width: 6vw;
+        height: 5vh;
+        border-radius: 50%;
+        border: 3px solid rgb(255, 255, 255);
+    }
+
 
     .location{
         /* border: 2px solid gold; */
@@ -241,6 +360,10 @@
     .photo{
         width: 32vw;
         height: 15vh;
+    }
+
+    .whole-image{
+        height: 20vh;
     }
 }
 

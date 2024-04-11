@@ -1,11 +1,9 @@
 image_flag = 0;
-document.querySelector("#change-text").innerHTML = "Hello";
-// document.querySelector("#change-text").innerTEXT = `${fileInput}`;
 function uploadPhoto() {
     const fileInput = document.getElementById('fileInput');
     const filePath = fileInput.value;
     const allowedExtensions = /(\.jpg|\.jpeg|\.png|\.gif)$/i;
-    
+
     if (!allowedExtensions.exec(filePath)) {
         alert('Invalid file type. Please upload an image.');
         fileInput.value = '';
@@ -22,7 +20,7 @@ function uploadPhoto() {
 
 function displayUploadedPhoto(file) {
     const reader = new FileReader();
-    reader.onload = function(event) {
+    reader.onload = function (event) {
         const imgElement = document.createElement('img');
         imgElement.src = event.target.result;
         imgElement.id = "person-img";
@@ -34,23 +32,49 @@ function displayUploadedPhoto(file) {
     reader.readAsDataURL(file);
 }
 
-function proceed(){
+function proceed() {
     let address = document.querySelector("#address").value;
     const img = document.querySelector("#person-img");
-    if(address != ""){
-        if(image_flag == 1)
+    if (address != "") {
+        if (image_flag == 1)
             window.location.href = "../Skill/Skill.html";
-        else{
+        else {
             document.querySelector("#fileInput").style.border = "2px solid red";
         }
     }
-    else{
-        if(image_flag != 1){
+    else {
+        if (image_flag != 1) {
             document.querySelector("#uploadedPhoto").style.border = "2px solid red";
             document.querySelector("#address").style.border = "2px solid red";
         }
-        else{
+        else {
             document.querySelector("#address").style.border = "2px solid red";
         }
     }
+}
+
+img_flag = 0;
+function choose_default_img() {
+    if (img_flag == 0) {
+        document.querySelector("#default_text_change").innerHTML = "Cancel";
+        document.querySelector("#default-table-img").style.opacity = "1";
+        document.querySelector("#default-table-img").style.zIndex = "4";
+        img_flag = 1;
+    } else {
+        document.querySelector("#default_text_change").innerHTML = "Default Images";
+        document.querySelector("#default-table-img").style.opacity = "0";
+        document.querySelector("#default-table-img").style.zIndex = "-1";
+        img_flag = 0;
+    }
+}
+
+function defaultPhoto(index) {
+    const img_array = ["../image2.jpg", "../image2.jpg", "../image2.jpg", "../image2.jpg", "../image2.jpg", "../image2.jpg", "../image2.jpg", "../image2.jpg", "../image2.jpg"]
+    const imgElement = document.createElement('img');
+    imgElement.src = img_array[index];
+    imgElement.id = "person-img";
+    const uploadedPhotoDiv = document.getElementById('uploadedPhoto');
+    uploadedPhotoDiv.innerHTML = '';
+    uploadedPhotoDiv.appendChild(imgElement);
+    image_flag = 1;
 }
