@@ -183,8 +183,8 @@
         background-color: rgb(237, 237, 237);
         text-align: center;
         margin: 0% 0% 0% 40%;
-        width: 40vw;
-        height: 25vh;
+        width: 50vw;
+        height: 35vh;
     }
     
     .whole-image table tr td{
@@ -194,8 +194,8 @@
     }
     
     .whole-image table tr td img{
-        width: 9vw;
-        height: 4vh;
+        width: 13vw;
+        height: 6vh;
         border-radius: 50%;
         border: 3px solid rgb(255, 255, 255);
     }

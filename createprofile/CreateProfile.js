@@ -69,7 +69,7 @@ function choose_default_img() {
 }
 
 function defaultPhoto(index) {
-    const img_array = ["../image2.jpg", "../image2.jpg", "../image2.jpg", "../image2.jpg", "../image2.jpg", "../image2.jpg", "../image2.jpg", "../image2.jpg", "../image2.jpg"]
+    const img_array = ["../image/image1.jpg", "../image/image2.jpg", "../image/image3.jpg", "../image/image4.jpg", "../image/image5.jpg", "../image/image6.jpg", "../image/image7.jpg", "../image/image8.jpg", "../image/image9.jpg"]
     const imgElement = document.createElement('img');
     imgElement.src = img_array[index];
     imgElement.id = "person-img";
