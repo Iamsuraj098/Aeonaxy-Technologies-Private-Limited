@@ -88,18 +88,6 @@
     box-shadow: 3px 3px rgb(0, 0, 0, 0.2);
 }
 
-.move-up{
-    /* position: relative;
-    bottom: 25%; */
-    /* border: 2px solid black; */
-    /* display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    height: 30vh; */
-    /* width: 20vw; */
-}
-
 .same-template img{
     margin: 2%;
     width: 60%;
@@ -163,7 +151,7 @@
 .finsh p{
     font-family: "Roboto", sans-serif;
     color: rgb(35, 35, 35);
-    font-size: 1.1vw;
+    font-size: 1vw;
 }
 
 #press_return {

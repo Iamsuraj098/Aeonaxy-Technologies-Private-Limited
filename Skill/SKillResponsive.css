@@ -57,6 +57,14 @@
         margin: 3% 0% 3% 0%;
         font-size: 3vw;
     }
+
+    .design-show{
+        font-size: 3vw;
+    }
+
+    .finsh p{
+        font-size: 5vw;
+    }
 }
 
 @media screen and (max-width: 420px){
@@ -73,6 +81,10 @@
 
     .rectangle-box {
         margin-top: 10%;
+    }
+
+    .finsh p{
+        font-size: 5vw;
     }
 }
 
