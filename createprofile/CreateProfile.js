@@ -2,7 +2,7 @@ image_flag = 0;
 function uploadPhoto() {
     const fileInput = document.getElementById('fileInput');
     const filePath = fileInput.value;
-    const allowedExtensions = /(\.jpg|\.jpeg|\.png|\.gif)$/i;
+    const allowedExtensions = /(\.jpg|\.jpeg|\.png|\.gif)$/i; 
 
     if (!allowedExtensions.exec(filePath)) {
         alert('Invalid file type. Please upload an image.');
