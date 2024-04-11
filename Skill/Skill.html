@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="SKillResponsive.css">
     <script src="skill.js"></script>
 </head>
+
 <body>
     <div class="whole">
         <div class="top">
@@ -22,25 +24,30 @@
             <div class="rectangle-box">
                 <div class="looking-designer same-template">
                     <img src="Designer.jpeg" alt="">
-                    <p>I'm a desiger looking to share my work</p>
+                    <p class="looking-for">I'm a designer looking to share my work</p>
+                    <p id="share-design" class="design-show"></p>
                     <input type="radio" id="rad1" onclick="press_return()">
                 </div>
                 <div class="sharing-design same-template">
                     <img src="Designer (1).jpeg" alt="">
-                    <p>I'm looking to hire a desiger</p>
+                    <p class="looking-for">I'm looking to hire a designer </p>
+                    <p id="looking-design" class="design-show"></p>
                     <input type="radio" id="rad2" onclick="press_return()">
-                </div> 
+                </div>
                 <div class="design-inspiration same-template">
                     <img src="Designer (2).jpeg" alt="">
-                    <p>I'm looking for design inspiration</p>
+                    <p class="looking-for">I'm looking for design inspiration</p>
+                    <p id="inspiration-design" class="design-show"></p>
                     <input type="radio" id="rad3" onclick="press_return()">
                 </div>
             </div>
             <div class="finsh" id="finsh">
+                <p id="add-text"></p>
                 <button type="button" onclick="Next_page()">Finsh</button>
                 <!-- <a href="#" id="press_return">or Press RETURN</a> -->
             </div>
         </div>
     </div>
 </body>
+
 </html>

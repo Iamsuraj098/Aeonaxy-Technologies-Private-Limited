@@ -26,6 +26,7 @@
     }
 
     .rectangle-box {
+        margin-top: 10%;
         width: 80vw;
         flex-direction: column;
     }
@@ -65,8 +66,13 @@
     }
 
     .same-template {
+        margin-top: 10%;
         width: 75vw;
         height: 35vh;
+    }
+
+    .rectangle-box {
+        margin-top: 10%;
     }
 }
 

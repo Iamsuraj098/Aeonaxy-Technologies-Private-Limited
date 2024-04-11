@@ -19,10 +19,20 @@ flag = 0;
 function press_return(){
     if(flag == 0){
         flag = 1;
+        document.querySelector("#add-text").innerText = "Anything else? You can select multiple";
         let a = document.createElement('a');
         a.href = "../createprofile/CreateProfile.html";
         a.innerText = "or Press RETURN";
         a.setAttribute("id", "press_return");
         document.querySelector("#finsh").append(a);
+    }
+    if(rad1.checked){
+        document.querySelector("#share-design").innerText = "Share your work on Dribbble and connect with a vibrant community of design enthusiasts worldwide!";
+    }
+    if(rad2.checked){
+        document.querySelector("#looking-design").innerText = "Find the perfect designer for your project on Dribbble. Browse top talent and transform your vision";
+    }
+    if(rad3.checked){
+        document.querySelector("#inspiration-design").innerText = "Discover stunning designs, ignite your creativity, and connect with talented artists on Dribble today!";
     }
 }
